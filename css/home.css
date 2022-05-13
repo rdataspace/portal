@@ -1,0 +1,153 @@
+/* Home CSS */
+
+/* Background */
+
+.backgroundHome {
+	background-image: url("../images/background-nebula-1920.jpg");
+	background-color: #234;
+	background-blend-mode: overlay;
+	background-position: top;
+}
+
+@media (max-width: 1400px) {
+	.backgroundHome {
+		background-position: 50% 20%;
+	}
+}
+
+/* Header */
+
+.gridHeader-home {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 30% 40% 30%;
+	grid-column-gap: 0%;
+	grid-row-gap: 0%;
+	width: 90%;
+	background: none;
+	margin: 1.5rem auto;
+}
+
+.rdataLogo-home {
+	border: none;
+	border-radius: 2rem;
+}
+
+.rdataText-home {
+	font: italic 1.4rem/1 Georgia, serif;
+	color: #c5a267;
+	letter-spacing: 0.2rem;
+	text-align: center;
+	padding: 0.5rem;
+	margin: 0rem 0rem 0.7rem 0rem;
+}
+
+.headerText-home {
+	font: 1.4rem/0.5 Georgia, serif;
+	color: whitesmoke;
+	text-align: center;
+	letter-spacing: 0.15rem;
+	padding-bottom: 1.5rem;
+	margin: auto;
+}
+
+.headerPic-home {
+	justify-self: end;
+	border: none;
+	border-radius: 2rem;
+}
+
+@media (max-width: 1400px) {
+	.rdataLogo-home {
+		width: 6rem;
+	}
+
+	.headerText-home {
+		font: 1.3rem/0.5 Georgia, serif;
+	}
+
+	.headerPic-home {
+		width: 6rem;
+	}
+}
+
+/* Home Links */
+
+.hlink:link,
+.hlink:visited,
+.hlink:hover,
+.hlink:focus,
+.hlink:active {
+	text-decoration: none;
+	outline: none;
+}
+
+/* Buttons Home */
+
+.gridButtons-home {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 0;
+	align-content: space-between;
+	width: 90%;	
+	background: 0;
+	padding: 0em;
+	margin: auto;
+}
+
+.button-home {
+	border: 0.1rem solid rgba(200,150,100,0.4);
+	border-radius: 1rem;
+	padding: 0.3rem 1rem;
+	margin: 1rem 0.5rem;
+	width: 97%;
+	height: 30%;
+}
+
+.button-home:hover {
+	background-color: #000;
+	opacity: 0.7;
+	border: 0.1rem solid wheat;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+
+/* Footer Home */
+
+.footerHome {
+	display: block;
+	position: absolute;
+	left: 45%;
+	bottom: 2rem;
+	width: 10%;
+	background-color: rgba(20, 20, 20, 0.5);
+	border-radius: 0.7em;
+	border-top: 0.5px solid rgba(225, 225, 225, 0.2);
+	margin: 0rem;
+}
+
+@media (max-width: 1400px) {
+	.footerHome {
+	width: 14%;
+	left: 43%;
+	}
+}
+
+.attribute {
+	font: italic 1rem serif;
+	letter-spacing: 0.1rem;
+	color: #c5a267;
+	text-align: center;
+	border: 0;
+	margin: 0.5rem 0.1rem
+}
+
+.build {
+	font: 1rem serif;
+	color: #c5a267;
+	text-align: center;
+	border: 0;
+}
+
+/* End */

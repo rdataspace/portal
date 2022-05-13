@@ -1,0 +1,64 @@
+/* Shapes CSS */
+
+/* Shape Template */
+
+  .shape-template {
+    shape-outside: polygon(0px 0px, 0px 100px, 100px 100px, 100px 0px);
+  }
+
+/* ISS Shapes */
+
+  .shape-ams-patch {
+    padding-right: 15px;
+    shape-outside: polygon(0px 0px, 0px 220px, 125px 220px, 180px 170px, 180px 60px, 150px 0px);
+  }
+  .shape-ams-drawing {
+    padding-right: 15px;
+    shape-outside: polygon(0px 0px, 0px 270px, 270px 270px, 365px 180px, 365px 70px, 335px 0px);
+  }
+  .shape-dextre {
+    shape-outside: polygon(17px 111px, 31px 182px, 56px 236px, 221px 226px, 221px 1px, 12px 6px);
+  }
+  .shape-zarya-flight {
+    padding-left: 15px;
+    shape-outside: polygon(90px 15px, 90px 50px, 30px 80px, 0px 145px, 335px 145px, 335px 15px);
+  }
+  .shape-columbus {
+    shape-outside: polygon(130px 4px, 26.56% 10.68%, 3.59% 16.68%, 8px 287px, 386px 285px, 388px -1px);
+  }
+  .shape-destiny-patch {
+    shape-outside: polygon(0px 0px, -1px 143px, 186px 149px, 99.76% 29.54%, 144px 0px);
+  }
+  .shape-its-s6 {
+    shape-outside: polygon(0px 0px, 2px 26px, 24.11% 35.11%, 26.25% 86.21%, 0.69% 90.66%, 1.33% 100.16%, 318px 247px, 318px 1px);
+  }
+  .shape-rassvet {
+    shape-outside: polygon(61px 1px, 0.45% 44.73%, 10px 247px, 312px 247px, 309px -1px);
+  }
+  .shape-mplm-logo {
+    shape-outside: polygon(0px 0px, 2px 294px, 258px 292px, 104.16% 61.03%, 96.08% 18.05%, 198px -1px);
+  }
+  .shape-quest-components {
+    shape-outside: polygon(0px 0px, -1px 367px, 713px 365px, 98.12% 40.07%, 60.56% 39.82%, 362px 5px);
+  }
+  .shape-quest-astronaut {
+    shape-outside: polygon(173px 6px, 43.3% 23.48%, 3.82% 26.83%, -0.03% 59.81%, 21.77% 75.39%, 208px 226px, 215px 0px);
+  }
+  .shape-z1-photo {
+    shape-outside: polygon(104px 115px, 0.13% 51.38%, 1px 236px, 250px 235px, 99.68% 0.76%, 167px 2px);
+  }
+
+/* STS Shapes */
+
+  .shape-orbiter-fuselarge {
+    padding-right: 15px;
+    shape-outside: polygon(0px 134px, -2px 215px, 386px 210px, 388px 97px, 277px 93px, 52px 101px);
+  }
+  .shape-sts-patch {
+    shape-outside: polygon(138px 122px, 0px 123px, 46px 0px, 74px -4px);
+  }
+  .shape-sts-components {
+    shape-outside: polygon(179px 332px, 15px 332px, 3.59% 46.55%, 7.18% 28.68%, 26.41% 22.4%, 56px 1px, 179px -1px);
+  } 
+
+  /* End */
