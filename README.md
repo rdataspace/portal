@@ -1,10 +1,10 @@
-# rdataspace-home
-rdataspce website code and media for the home page
+# rdataspace
+rdataspace is a collection of non-commercial websites on space exploration technology.
 
-rdataspace is a non-commercial website for general interest and education.
+The websites contain original articles based on information from Wikipedia and the public domain.
 
-The website contains original articles on space exploration and space stations.
+The websites are static and provide concise information for reference and education.
 
-Content and media are based on information from Wikipedia and the public domain.
+Links are provided to source material and for further reading.
 
 Credit is given, where possible, to the original source of the information and media.
