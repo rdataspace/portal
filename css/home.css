@@ -96,6 +96,42 @@
 	margin: auto;
 }
 
+.button-red {
+	border: 0.1rem solid rgb(200, 100, 100);
+	border-radius: 1rem;
+	padding: 0.3rem 1rem;
+	margin: 1rem 0.5rem;
+	width: 97%;
+	height: 30%;
+}
+
+.button-blue {
+	border: 0.1rem solid rgba(100, 100, 250, 0.5);
+	border-radius: 1rem;
+	padding: 0.3rem 1rem;
+	margin: 1rem 0.5rem;
+	width: 97%;
+	height: 30%;
+}
+
+.button-green {
+	border: 0.1rem solid rgba(100, 200, 100, 0.5);
+	border-radius: 1rem;
+	padding: 0.3rem 1rem;
+	margin: 1rem 0.5rem;
+	width: 97%;
+	height: 30%;
+}
+
+.button-orange {
+	border: 0.1rem solid rgba(200, 150, 50, 0.5);
+	border-radius: 1rem;
+	padding: 0.3rem 1rem;
+	margin: 1rem 0.5rem;
+	width: 97%;
+	height: 30%;
+}
+
 .button-home {
 	border: 0.1rem solid rgba(200,150,100,0.4);
 	border-radius: 1rem;
@@ -103,6 +139,30 @@
 	margin: 1rem 0.5rem;
 	width: 97%;
 	height: 30%;
+}
+
+.button-blue:hover {
+	background-color: #000;
+	opacity: 0.7;
+	border: 0.1rem solid rgb(50, 100, 250);
+	border-radius: 1rem;
+	cursor: pointer;
+}
+
+.button-green:hover {
+	background-color: #000;
+	opacity: 0.7;
+	border: 0.1rem solid rgb(100, 200, 100);
+	border-radius: 1rem;
+	cursor: pointer;
+}
+
+.button-orange:hover {
+	background-color: #000;
+	opacity: 0.7;
+	border: 0.1rem solid rgb(200, 150, 50);
+	border-radius: 1rem;
+	cursor: pointer;
 }
 
 .button-home:hover {
