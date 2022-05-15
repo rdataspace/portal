@@ -1,5 +1,91 @@
 /* Home CSS */
 
+/* About */
+
+.aboutSymbol {
+	position: absolute;
+	top: 11rem;
+	left: 49.3%;
+	width: 1.8rem;
+	height: 2rem;
+	color: #c5a267;
+	background-color: #001;
+	font: 1.2rem sans-serif;
+	border: 0;
+	border-radius: 0.7rem;
+	padding:0.25rem 0.3rem 0.3rem 0.3rem;
+	cursor: pointer;
+	box-shadow: inset 0.1rem 0.1rem 0.2rem #778, inset -0.1rem -0.1rem 0.2rem #111;
+}
+	
+.aboutNote {
+	display: block;
+	position: absolute;
+	top: 0rem;
+	left: 19%;
+	width: 40%;
+	height: auto;
+	z-index: 2;
+	text-align: center;
+	background-color: rgba(10, 15, 20, 1);
+	padding: 0em 0.5em;
+	margin-top: 0.7rem;
+	border: 0rem;
+	border-radius: 0.7rem;
+}
+
+.modalAbout {
+  position: fixed;
+  z-index: 2;
+	top: 9rem;
+	left: 11%;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+	transform: scale(0);
+	transform-origin: 39% 50%;
+  visibility: hidden;
+	opacity: 0;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1ms;
+}
+
+.modalAbout-content {
+  background-color: rgba(0,0,0,0.75);
+  width: 78%;
+	height: 40%;
+	border: 0rem;
+	border-radius: 0.7rem;
+}
+
+@media (max-width: 1400px) {
+	.aboutNote {
+		width: 70%;
+	}
+	.modalAbout {
+		left: 15%;
+	}
+	.modalAbout-content {
+		width: 70%;
+		height: 70%;
+	}
+}
+
+.close {
+  color: #c5a267;
+  float: right;
+  margin: 8rem 46rem 0rem 0rem;
+	font-size: 3rem;
+}
+
+.close:hover,
+.close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* Background */
 
 .backgroundHome {
