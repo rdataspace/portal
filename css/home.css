@@ -28,26 +28,26 @@
 	margin: 1.5rem auto;
 }
 
-.rdataLogo-home {
+.headerLogo {
 	border: none;
 	border-radius: 2rem;
 }
 
-.rdataText-home {
+.headerText-rdataspace {
 	font: italic 1.4rem/1 Georgia, serif;
 	color: #c5a267;
 	letter-spacing: 0.2rem;
 	text-align: center;
 	padding: 0.5rem;
-	margin: 0rem 0rem 0.7rem 0rem;
+	margin: 1rem 0rem 0.7rem 0rem;
 }
 
-.headerText-home {
+.headerText-title	 {
 	font: 1.4rem/0.5 Georgia, serif;
 	color: whitesmoke;
 	text-align: center;
 	letter-spacing: 0.15rem;
-	padding-bottom: 1.5rem;
+	padding-bottom: 0.5rem;
 	margin: auto;
 }
 
@@ -57,18 +57,10 @@
 	border-radius: 2rem;
 }
 
-@media (max-width: 1400px) {
-	.rdataLogo-home {
-		width: 6rem;
-	}
-
-	.headerText-home {
-		font: 1.3rem/0.5 Georgia, serif;
-	}
-
-	.headerPic-home {
-		width: 6rem;
-	}
+.header-flex{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 /* Home Links */
@@ -96,81 +88,57 @@
 	margin: auto;
 }
 
+.button {
+	padding: 0.3rem 1rem;
+	margin: 2rem 0.5rem;
+	width: 97%;
+	height: 25%;
+}
+
 .button-red {
 	border: 0.1rem solid rgb(200, 100, 100);
 	border-radius: 1rem;
-	padding: 0.3rem 1rem;
-	margin: 1rem 0.5rem;
-	width: 97%;
-	height: 30%;
 }
 
 .button-blue {
 	border: 0.1rem solid rgba(100, 100, 250, 0.5);
 	border-radius: 1rem;
-	padding: 0.3rem 1rem;
-	margin: 1rem 0.5rem;
-	width: 97%;
-	height: 30%;
 }
 
 .button-green {
 	border: 0.1rem solid rgba(100, 200, 100, 0.5);
 	border-radius: 1rem;
-	padding: 0.3rem 1rem;
-	margin: 1rem 0.5rem;
-	width: 97%;
-	height: 30%;
 }
 
 .button-orange {
 	border: 0.1rem solid rgba(200, 150, 50, 0.5);
 	border-radius: 1rem;
-	padding: 0.3rem 1rem;
-	margin: 1rem 0.5rem;
-	width: 97%;
-	height: 30%;
-}
-
-.button-home {
-	border: 0.1rem solid rgba(200,150,100,0.4);
-	border-radius: 1rem;
-	padding: 0.3rem 1rem;
-	margin: 1rem 0.5rem;
-	width: 97%;
-	height: 30%;
 }
 
 .button-blue:hover {
 	background-color: #000;
 	opacity: 0.7;
+	cursor: pointer;
+}
+
+.button-blue:hover {
 	border: 0.1rem solid rgb(50, 100, 250);
 	border-radius: 1rem;
-	cursor: pointer;
+}
+
+.button-blue:hover {
+	border: 0.1rem solid rgb(50, 100, 250);
+	border-radius: 1rem;
 }
 
 .button-green:hover {
-	background-color: #000;
-	opacity: 0.7;
 	border: 0.1rem solid rgb(100, 200, 100);
 	border-radius: 1rem;
-	cursor: pointer;
 }
 
 .button-orange:hover {
-	background-color: #000;
-	opacity: 0.7;
 	border: 0.1rem solid rgb(200, 150, 50);
 	border-radius: 1rem;
-	cursor: pointer;
-}
-
-.button-home:hover {
-	background-color: #000;
-	opacity: 0.7;
-	border: 0.1rem solid wheat;
-	border-radius: 1rem;
-	cursor: pointer;
 }
 
 /* Footer Home */
@@ -178,35 +146,41 @@
 .footerHome {
 	display: block;
 	position: absolute;
-	left: 45%;
+	left: 5%;
 	bottom: 2rem;
-	width: 10%;
+	width: 90%;
 	background-color: rgba(20, 20, 20, 0.5);
 	border-radius: 0.7em;
 	border-top: 0.5px solid rgba(225, 225, 225, 0.2);
 	margin: 0rem;
 }
 
-@media (max-width: 1400px) {
-	.footerHome {
-	width: 14%;
-	left: 43%;
-	}
+.footer-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.footer-text {
+	font: 0.95rem/1.3 Verdana, sans-serif;
+	color: #c5a267;
+	border: 0;
+	margin: 0.5rem 1rem
+}
+
+.info-symbol {
+	color: #c5a267;
+	font: 1rem sans-serif;
+	border: 0.1rem solid #c5a267;
+	border-radius: 1em;
+	cursor: default;
 }
 
 .attribute {
 	font: italic 1rem serif;
 	letter-spacing: 0.1rem;
 	color: #c5a267;
-	text-align: center;
-	border: 0;
-	margin: 0.5rem 0.1rem
-}
-
-.build {
-	font: 1rem serif;
-	color: #c5a267;
-	text-align: center;
 	border: 0;
 }
 
