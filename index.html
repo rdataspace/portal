@@ -11,9 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="css/content.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<link rel="Shortcut Icon" href="images/icon-rdata.ico" type="image/x-icon">
-	<script type="text/javascript" src="js/modal_about.js"></script>
-	<script type="text/javascript" src="js/modal_enlarge.js"></script>
-
 </head>
 
 <body class="backgroundHome">
@@ -23,35 +20,12 @@
 	<div class="header-flex">
 		<img style="margin: 1.5rem 11rem 0rem 0rem; border-radius: 50px;" src="images/header-logo.png" alt="rdataspace logo">
 		<div>
-			<p class="headerText-rdataspace">rdata <sub>space</sub></p>
+			<p class="headerText-rdataspace">rdata<sub>space</sub></p>
 			<p class="headerText-title">Space Exploration Technology and Engineering</p>
 			<p class="color center-text bdl bdr rds-all pl pr">rdataspace is a collection of non-commercial websites on space exploration technology.</p>
 		</div>	
 		<img  style="margin: 1.5rem 0rem 0rem 11rem; border-radius: 50px;" src="images/header-image.png" alt="Header Image">
 	</div>
-
-	<!-- About -->
-
-	<div>
-		<div id="item_01" class="aboutSymbol">
-			&nbsp;&#8505;&nbsp;
-		</div>
-		<div id="modal_01" class="modalAbout">
-			<div class="modalAbout-content">
-				<span class="close_01 close">&times;</span>
-				<div class="aboutNote">
-					<p>This site currently contains original articles on space exploration and an image gallery.</p>
-					<p>The articles include mission summaries and details of the technology and engineering used.</p>
-					<p>Content and images were obtained from the public domain and are referenced where
-						possible.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Javascript -->
-
-	<script type="text/javascript" src="js/modal_enlarge.js"></script>
 
 	<!-- Buttons -->
 
@@ -148,12 +122,29 @@
 
 	<footer class="footerHome">
 		<div class="footer-flex">
-			<p class="footer-text mt0 mb0"><small><span class="info-symbol ml0">&nbsp;&#8505;&nbsp;</span>
-				 <a class="hlink" href="README.md" title="README file">README</a></small></a> 
-					| &copy  <a class="hlink" href="LICENSE" title="LICENCE file"><small>LICENSE</small></a></p>
+			<div class="footer-flex">
+				<p class="footer-text mt0 mb0"><small><span class="info-symbol ml0">&#8505;</span></small>
+					<div id="item_01" class="about">About
+					</div>
+					<div id="modal_01" class="modalAbout">
+						<div class="modalAbout-content">
+							<span class="close_01 close">close</span>
+							<div class="aboutNote">
+								<h2>About <em>rdataspace</em></h2>
+								<p>rdataspace is a collection of non-commercial websites on space exploration technology.</p>
+								<p>The websites contain original articles based on information from Wikipedia and the public domain.</p>
+								<p>The websites are static and provide concise information for reference and education.</p>
+								<p>Links are provided to source material and for further reading.</p>
+								<p>Credit is given, where possible, to the original source of the information and media.</p>
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript" src="modal_about.js"></script>
+				<p class="footer-text">|&nbsp;&nbsp;&copy&nbsp;<a class="elink" href="LICENSE" title="License file">License</a></p>
+			</div>
 			<p class="footer-text"><Small>End of page</Small></p>
-			<p class="footer-text"><span class="attribute">rdata&nbsp;<sub>space</sub></span> <small>2022</small></p>
-		</div>	
+			<p class="footer-text"><span class="attribute">rdata<sub>space</sub></span> <small>2022</small></p>
+		</div>
 	</footer>
 
 	<!-- End -->

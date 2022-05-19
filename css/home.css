@@ -2,7 +2,7 @@
 
 /* About */
 
-.aboutSymbol {
+/*.aboutSymbol {
 	position: absolute;
 	bottom: 11rem;
 	left: 49.3%;
@@ -16,31 +16,41 @@
 	padding:0.25rem 0.3rem 0.3rem 0.3rem;
 	cursor: pointer;
 	box-shadow: inset 0.1rem 0.1rem 0.2rem #778, inset -0.1rem -0.1rem 0.2rem #111;
+}*/
+
+.about {
+	position: relative;
+	font: 0.95rem/0.5 Verdana, sans-serif;
+	color: #c5a267;
+	text-decoration: underline;
+	margin-top: 0.9rem;
+	padding:0rem;
+	cursor: pointer;
 }
 	
 .aboutNote {
 	display: block;
 	position: absolute;
-	top: 0rem;
-	left: 19%;
-	width: 40%;
-	height: auto;
+	top: 10%;
+	left: 17%;
+	width: 45%;
+	height: 22%;
 	z-index: 2;
 	text-align: center;
 	background-color: rgba(10, 15, 20, 1);
-	padding: 0em 0.5em;
+	padding: 1em 0.5em;
 	margin-top: 0.7rem;
 	border: 0rem;
-	border-radius: 0.7rem;
+	border-radius: 1rem;
 }
 
 .modalAbout {
   position: fixed;
   z-index: 2;
-	top: 9rem;
-	left: 11%;
-  width: 100%;
-  height: 100%;
+	top: 17%;
+	left: 5%;
+  width: 116%;
+  height: 150%;
   background-color: transparent;
 	transform: scale(0);
 	transform-origin: 39% 50%;
@@ -60,10 +70,12 @@
 }
 
 .close {
+	position: fixed;
+  z-index: 3;
+	top: 29.5%;
+	left: 38.5%;
   color: #c5a267;
-  float: right;
-  margin: 8rem 46rem 0rem 0rem;
-	font-size: 3rem;
+	font-size: 1.2rem;
 }
 
 .close:hover,
@@ -158,7 +170,7 @@
 	width: 90%;	
 	background: 0;
 	padding: 0em;
-	margin: auto;
+	margin: 1.5rem auto;
 }
 
 .button {
