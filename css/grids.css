@@ -1,0 +1,270 @@
+/* Grids */
+
+/* Header */
+
+	.gridHeader {
+		display: grid;
+		grid-template-columns: 10.5% 79% 10.5%;
+		column-gap: 0%;
+		row-gap: 0%;
+		width: 80%;
+		height: 14vh;
+		background: transparent;
+		margin: 0rem auto;
+	}
+	.gridHeaderTech {
+		display: grid;
+		grid-template-columns: 14% 72% 14%;
+		column-gap: 0%;
+		row-gap: 0%;
+		width: 80%;
+		height: 14vh;
+		background: transparent;
+		margin: 0rem auto;
+	}
+	@media (max-width: 1400px) {
+		.gridHeader {
+			width: 97%;
+			height: 17.5vh;
+		}
+	}
+
+/* Menu */
+
+	.gridMenu {
+		display: grid;
+		grid-template-columns: 6% 12% 15% 17% 16% 15% 19%;
+		grid-template-rows: 0;
+		column-gap: 0%;
+		row-gap: 0%;
+		width: 80%;
+		height: 4.1vh;
+		margin: 0rem auto;
+	}
+	@media (max-width: 1400px) {
+		.gridMenu {
+			width: 97%;
+			height: 6vh;
+		}
+	}
+	.gridMenu-tech {
+		display: grid;
+		grid-template-columns: 33% 17% 16% 34%;
+		grid-template-rows: 0;
+		column-gap: 0%;
+		row-gap: 0%;
+		width: 80%;
+		height: 4.1vh;
+		margin: 0rem auto;
+	}
+	.gridMenu-eos {
+		display: grid;
+		grid-template-columns: 5% 7% 15% 15% 16% 15% 15% 12%;
+		grid-template-rows: 0;
+		column-gap: 0%;
+		row-gap: 0%;
+		width: 80%;
+		height: 4.1vh;
+		margin: 0rem auto;
+	}
+	.gridMenu-str {
+		display: grid;
+		grid-template-columns: 6% 6% 12% 26% 25% 12% 12%;
+		grid-template-rows: 0;
+		column-gap: 0%;
+		row-gap: 0%;
+		width: 80%;
+		height: 4.1vh;
+		margin: 0rem auto;
+	}
+	.gridMenu-str-tech {
+		display: grid;
+		grid-template-columns: 23% 29% 20% 28%;
+		grid-template-rows: 0;
+		column-gap: 0%;
+		row-gap: 0%;
+		width: 80%;
+		height: 4.1vh;
+		margin: 0rem auto;
+	}
+	.gridMenu-SCFP {
+		display: grid;
+		grid-template-columns: 6% 12% 64% 18%;
+		grid-template-rows: 0;
+		column-gap: 0%;
+		row-gap: 0%;
+		width: 80%;
+		height: 4.1vh;
+		margin: 0rem auto;
+	}
+	
+/* Columns */
+
+	.grid-1col {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: auto;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-1-2col {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr 2fr;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-2col {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-3col {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-4col {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+
+/* Auto Columns */
+
+	.grid-2col-auto {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: auto auto;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-2col-auto-right {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr auto;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-3col-auto {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: auto auto 1fr;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-3col-center {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: auto 1fr auto;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-3col-121 {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr 2fr 1fr;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-3col-112 {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr 1fr 2fr;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+	.grid-3col-121-5row {
+		display: grid;
+		grid-template-rows: repeat(5, auto);
+		grid-template-columns: 1fr 2fr 1fr;
+		column-gap: 0;
+		row-gap: 0;
+		width: 100%;
+		background: 0;
+		padding: 0em;
+		margin: 0em auto;
+	}
+
+/* Grid ISS Intro Flags */
+
+	.grid-flags {
+		display: grid;
+		grid-template-columns: repeat(16, 1fr);
+		column-gap: 1.5em;
+		width: 100%;
+		background: transparent;
+		padding: 0em;
+		margin: 0em auto;
+	}
+
+	@media (max-width: 1400px) {
+		.grid-flags {
+		column-gap: 1.2em;
+		}
+	}
+
+/* Grid Mir Assembly */
+
+.grid-mir-assembly {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	column-gap: 1em;
+	width: 100%;
+	background: transparent;
+	padding: 0em;
+	margin: 0em auto;
+}
+
+
+/* End */
