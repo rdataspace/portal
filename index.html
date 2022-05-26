@@ -7,9 +7,8 @@
 	<meta name="description" content="rdataspace is a collection of non-commercial websites on space exploration technology.">
 	<title>rdataspace Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/theme.css">
-	<link rel="stylesheet" type="text/css" href="css/content.css">
-	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="global.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
 	<link rel="Shortcut Icon" href="images/icon-rdata.ico" type="image/x-icon">
 </head>
 
@@ -18,13 +17,41 @@
 	<!-- Header -->
 
 	<div class="header-flex">
-		<img style="margin: 1.5rem 11rem 0rem 0rem; border-radius: 50px;" src="images/header-logo.png" alt="rdataspace logo">
+		<img style="margin: 1.5rem 1rem 0rem 0rem;" src="images/header-logo.png" alt="rdataspace logo">
 		<div>
-			<p class="headerText-rdataspace">rdata<sub>space</sub></p>
-			<p class="headerText-title">Space Exploration Technology and Engineering</p>
-			<p class="color center-text bdl bdr rds-all pl pr">rdataspace is a collection of non-commercial websites on space exploration technology.</p>
-		</div>	
-		<img  style="margin: 1.5rem 0rem 0rem 11rem; border-radius: 50px;" src="images/header-image.png" alt="Header Image">
+			
+			<div class="header-flex mt">
+
+				<div>
+					<div id="item_01" class="headerText-links">About&nbsp;&nbsp;<span class="info-symbol"><small>i</small></span>
+					</div>
+					<div id="modal_01" class="modalAbout-home">
+						<div class="modalAbout-content">
+							<span class="close_01 close-home">X <small>close</small></span>
+							<div class="aboutNote-home">
+								<h2>About</h2>
+								<p><strong><em>rdata<sub>space</sub></em></strong> is a collection of non-commercial websites on space exploration technology.</p>
+								<p>The websites contain original articles based on information from Wikipedia and the public domain.</p>
+								<p>The websites are static and provide concise information for reference and education.</p>
+								<p>Links are provided to source material and for further reading.</p>
+								<p>Credit is given, where possible, to the original source of the information and media.</p>
+								<p class="color mr" style="text-align: end;"><em>&nbsp;rdata&nbsp;<sub>space</sub></em>&nbsp;&nbsp;<small>2022</small></p>
+							</div>			
+						</div>
+					</div>
+					<script type="text/javascript" src="modal_about.js"></script>
+
+					<p class="headerText-links"><a class="alink" href="https://creativecommons.org/publicdomain/zero/1.0/" title="Copyright" target="_blank" >Copyright</a></p>
+				</div>
+
+				<div>
+					<p class="headerText-rdataspace">rdata<sub>space</sub></p>
+					<p class="headerText-title">Space Exploration Technology and Engineering</p>
+				</div>	
+			</div>
+		</div>
+
+		<img  style="margin: 1.5rem 0rem 0rem 1rem;" src="images/header-image.png" alt="Header Image">
 	</div>
 
 	<!-- Buttons -->
@@ -53,7 +80,7 @@
 			
 			<!-- STS -->
 			<div class="button button-green">
-				<a class="hlink" href="https://rdataspace.github.io/rdataspace-sts/" title="STS Article">
+				<a class="hlink" href="https://rdataspace.github.io/sts/" title="STS Article">
 				<img class="fl mr mt" src="images/button-sts-home.png" alt="STS button pic" width="25%">
 				<p class="color-caps center-text">Space Transport System</p>
 				<p>U.S. Space Shuttle missions with details of the main components. <small>{12 pages}</small></p>
@@ -120,32 +147,7 @@
 
 	<!-- Footer -->
 
-	<footer class="footerHome">
-		<div class="footer-flex">
-			<div class="footer-flex">
-				<p class="footer-text mt0 mb0"><small><span class="info-symbol ml0">&#8505;</span></small>
-					<div id="item_01" class="about">About
-					</div>
-					<div id="modal_01" class="modalAbout">
-						<div class="modalAbout-content">
-							<span class="close_01 close">close</span>
-							<div class="aboutNote">
-								<h2>About <em>rdataspace</em></h2>
-								<p>rdataspace is a collection of non-commercial websites on space exploration technology.</p>
-								<p>The websites contain original articles based on information from Wikipedia and the public domain.</p>
-								<p>The websites are static and provide concise information for reference and education.</p>
-								<p>Links are provided to source material and for further reading.</p>
-								<p>Credit is given, where possible, to the original source of the information and media.</p>
-							</div>
-						</div>
-					</div>
-					<script type="text/javascript" src="modal_about.js"></script>
-				<p class="footer-text">|&nbsp;&nbsp;&copy&nbsp;<a class="elink" href="https://creativecommons.org/publicdomain/zero/1.0/" title="License file">License</a></p>
-			</div>
-			<p class="footer-text"><Small>End of page</Small></p>
-			<p class="footer-text"><span class="attribute">rdata<sub>space</sub></span> <small>2022</small></p>
-		</div>
-	</footer>
+	<p class="color" style="text-align: center;"><em>&nbsp;rdata&nbsp;<sub>space</sub></em>&nbsp;&nbsp;<small>2022</small></p>
 
 	<!-- End -->
 
