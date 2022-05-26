@@ -18,7 +18,7 @@ body {
 	background-position: top;
 }
 
-/* Images 
+/* Images */ 
 
 img {
 	display: block;
@@ -28,11 +28,8 @@ img {
 .fl {
 	float: left;
 }
-.fr {
-	float: right;
-}
 
-/* Text 
+/* Text  */
 
 p {
 	font: 0.95rem/1.3 Verdana, sans-serif;
@@ -49,36 +46,14 @@ h2 {
 .color {
 	color: #c5a267;
 }
-.color-caps {
-	font: small-caps 1rem sans-serif;
-	color: #c5a267;  
-}
 .center-text {
 	text-align: center;
-}
-.bdl {
-	border-left: 0.1rem solid rgba(100,100,100,0.8);
-}	
-.bdr {
-	border-right: 0.1rem solid rgba(100,100,100,0.8);
-}	
-.rds-all {
-	border-radius: 1rem;
 }
 .mt {
 	margin-top: 1rem;
 }
-.mt0 {
-	margin-top: 0rem;
-}
-.mr {
+	.mr {
 	margin-right: 1rem;
-}
-.mb0 {
-	margin-bottom: 0rem;
-}
-.ml0 {
-	margin-left: 0rem;
 }
 .pl {
 	padding-left: 0.7rem;
@@ -94,11 +69,6 @@ h2 {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-}
-.header-flex-links{
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
 }
 .headerText-rdataspace {
 	font: italic 1.4rem/1 Georgia, serif;
@@ -129,7 +99,7 @@ h2 {
   text-decoration: none;
 }
   
-/* Home Links */
+/* Links */
 
 .hlink:link,
 .hlink:visited,
@@ -139,20 +109,139 @@ h2 {
 	text-decoration: none;
 	outline: none;
 }
-
-/* External Links in body 
-
-.elink:link, .elink:visited {
-	color: #c5a267;
-	text-decoration: underline;
+.alink:link, .alink:visited {
+	font: 0.95rem/1.3 Verdana, sans-serif;
+	color: #c5a267;	
+	border-bottom: 0.1rem dotted #c5a267;
+	text-decoration: none;
 }
-.elink:hover {
+.alink:hover {
 	color: #fff;
-	text-decoration: underline;
+	border-bottom: 0.1rem dotted #fff;
+	text-decoration: none;
 }
-.elink:active {
+.alink:active {
 	color: red;
 }
+
+  /* About Button */
+
+  .aboutButton {
+    margin: 0.5em 1em 0em 0em;
+    padding-left: 1rem;
+    cursor: pointer;
+  }
+
+  .about {
+    position: relative;
+    font: 0.9rem/0.5 Verdana, sans-serif;
+    color: #c5a267;
+    margin-top: 0.9rem;
+    padding: 0rem 1rem;
+    cursor: pointer;
+  }
+  .aboutNote {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 30%;
+    z-index: 2;
+    text-align: center;
+    background-color: rgba(10, 15, 20, 1);
+    padding: 1em 0.5em;
+    margin-top: 0rem;
+    border: 0rem;
+    border-radius: 1rem;
+  }
+  .aboutNote-home {
+    position: relative;
+    top: 10%;
+    left: 23%;
+    width: 50%;
+    height: 30%;
+    z-index: 2;
+    text-align: center;
+    background-color: rgba(10, 15, 20, 1);
+    padding: 1em 0.5em;
+    margin-top: 0rem;
+    border: 0rem;
+    border-radius: 1rem;
+  }
+  .modalAbout {
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    left: 10%;
+    width: 133.3%;
+    height: 250%;
+    background-color: transparent;
+    transform: scale(0);
+    transform-origin: 39% 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1ms;
+  }
+  .modalAbout-home {
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+    width: 150%;
+    height: 250%;
+    background-color: transparent;
+    transform: scale(0);
+    transform-origin: 39% 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1ms;
+  }
+  .modalAbout-content {
+    background-color: rgba(0,0,0,0.75);
+    width: 70%;
+    height: 40%;
+    border: 0rem;
+  }
+  .close {
+    position: relative;
+    z-index: 3;
+    top: 14%;
+    left: 21.5%;
+    color: #c5a267;
+    font-size: 1.2rem;
+  }
+  .close:hover,
+  .close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close-home {
+    position: relative;
+    z-index: 3;
+    top: 14%;
+    left: 24%;
+    color: #c5a267;
+    font-size: 1.2rem;
+  }
+  .close-home:hover,
+  .close-home:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+	.info-symbol {
+    font: 0.9em sans-serif;
+    color: #c5a267;
+    border: 0.1em solid #c5a267;
+    border-radius: 0.5em;
+    cursor: default;
+    padding: 0em 0.4em;
+  }
 
 /* Buttons Home */
 
@@ -209,45 +298,6 @@ h2 {
 .button-orange:hover {
 	border: 0.1rem solid rgb(200, 150, 50);
 	border-radius: 1rem;
-}
-
-/* Footer /
-
-.footerHome {
-	display: block;
-	position: absolute;
-	left: 5%;
-	bottom: 2rem;
-	width: 90%;
-	background-color: rgba(20, 20, 20, 0.5);
-	border-radius: 0.7em;
-	border-top: 0.5px solid rgba(225, 225, 225, 0.2);
-	margin: 0rem;
-}
-.footer-flex{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-}
-.footer-text {
-	font: 0.95rem/1.3 Verdana, sans-serif;
-	color: #c5a267;
-	border: 0;
-	margin: 0.5rem 1rem
-}
-.info-symbol {
-	color: #c5a267;
-	font: 1rem sans-serif;
-	border: 0.1rem solid #c5a267;
-	border-radius: 1em;
-	cursor: default;
-}
-.attribute {
-	font: italic 1rem serif;
-	letter-spacing: 0.1rem;
-	color: #c5a267;
-	border: 0;
 }
 
 /* End */
