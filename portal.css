@@ -17,7 +17,7 @@ body {
 .backgroundHome {
 	background-image: url("images/background-nebula-1920.jpg");
 	background-color: #234;
-	background-blend-mode: overlay;
+	background-blend-mode: multiply;
 	background-position: top;
 }
 
